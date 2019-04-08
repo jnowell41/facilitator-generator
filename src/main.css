@@ -1,0 +1,51 @@
+* {
+  font-size: 1.2em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+p {
+  width: 350px;
+  font-size: 0.8em;
+}
+main {
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+fieldset {
+  width: 500px;
+  border: 2px solid plum;
+}
+img {
+  width: 300px;
+  filter: grayscale(100%);
+  transition: 0.2s;
+}
+input {
+  width: 100%;
+}
+.checkme {
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+  background: plum;
+  border-radius: 10px;
+  border: 2px solid plum;
+  opacity: 0.4;
+  transition: 0.2s;
+}
+.checkme:checked {
+  background-color: purple;
+  opacity: 0.8;
+}
